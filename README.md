@@ -30,11 +30,6 @@ resp, err := content_security.TextAntiDirty(app, payload)
 fmt.Println(string(resp), err)
 ```
 
-
-完整演示项目：
-
-[https://github.com/icarephone/microapp-demo](https://github.com/icarephone/microapp-demo)
-
 接口列表：
 
 - 小程序 [doc/apilist.md](doc/apilist.md)
@@ -73,17 +68,6 @@ fmt.Println(string(resp), err)
 
 只需 [设置 GetAccessTokenFunc 方法](https://pkg.go.dev/github.com/icarephone/microapp/?tab=doc#example-MicroApp.GetAccessTokenHandler) ，从中控服务获取 AccessToken，即可解决多实例刷新冲突/覆盖的问题
 
-### 活跃的开发者社区
-
-FastWeGo 是一套完整的 Go 开发框架，包括支持微信、飞书、钉钉、字节小程序服务，拥有庞大的开发者用户群体
-
-你遇到的所有问题几乎都可以在社区找到解决方案
-
-
 ## 参与贡献
 
 欢迎提交 pr/issue 或者 文档，一起让 Go 开发更快更好！
-
-Faster we go together!
-
-[加入开发者交流群](https://github.com/fastwego/fastwego.dev#%E5%BC%80%E5%8F%91%E8%80%85%E4%BA%A4%E6%B5%81%E7%BE%A4)
